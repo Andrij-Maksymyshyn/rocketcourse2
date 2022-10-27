@@ -9,10 +9,10 @@ const arr1 = [1, "Hi", true, "My name is Andrij", 7];
 
 //Task2.2
 
-    // for (let i = 0; i < arr1.length; i += 1) {
-    // if (arr1[i].length >= 4) {
-    //     console.log(arr1[i]);
-    // }};
+// for (let i = 0; i < arr1.length; i += 1) {
+// if (arr1[i].length >= 4) {
+//     console.log(arr1[i]);
+// }};
 
 //Task2.3
 
@@ -94,8 +94,79 @@ const arr4 = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
 // let i = 0;
 // while (i < arr4.length) {
 //     console.log(arr4[i]);
-//     i++;
+//     i += 1;
 // };
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Task6.2
+
+// let i = 0;
+// while (i < arr4.length){
+//   if (i % 2 !== 0){
+//       console.log(arr4[i]);
+//   };
+//   i += 1
+// };
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Task6.3
+
+// for (let i = 0; i < arr4.length; i += 1){
+//     if (i % 2 !== 0) {
+//         console.log(arr4[i]);
+//     }
+// };
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Task6.4
+
+// for (let i = 0; i < arr4.length; i += 1) {
+//     if (arr4[i] % 3 === 0) {
+//         // arr4[i] = 'Andrij';
+//         console.log(arr4[i]);
+//     };
+// };
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Task6.5
+
+// let array = [];
+// let array1 = [];
+// for (let u = 0; u < 50; u += 1){
+//     u%2 === 0 ? array.push(u) : array1.push(u);
+// };
+// console.log(array);
+// console.log(array1);
+
+
+
+
+
+// let userData = {
+//   name: "Irina",
+//   age: 34,
+//   address: {
+//     city: 'Kharkiv'
+//   }
+// }
+// for (const key in userData.address) {
+//   console.log(userData.address[key]);
+// }
+
+
+
 
 
 
